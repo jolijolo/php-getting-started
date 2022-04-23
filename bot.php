@@ -85,7 +85,7 @@ $update = json_decode(file_get_contents('php://input'));
 @$user = json_decode(file_get_contents("data/user.json"),true);
 @$filterget = $settings["filterlist"];
 //=======================================================================================
-$vi = json_encode(['inline_keyboard'=>[
+$v8 = json_encode(['inline_keyboard'=>[
     [['text'=>'🏆قاصدک🏆','url'=>'https://t.me/qsdk_new']],
     [['text'=>'♠️شامپو تریاک اصل♠️','url'=>'https://t.me/qsdk_new/61']]
 ]]);
